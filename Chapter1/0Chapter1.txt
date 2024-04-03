@@ -1,0 +1,25 @@
+CHAPTER 1
+
+Fundamentals
+    -This chapter describes the fundamental characteristics of the objectoriented
+C++ programming language. In addition, you will be introduced
+to the steps necessary for creating a fully functional C++ program.The
+examples provided will help you retrace these steps and also
+demonstrate the basic structure of a C++ program.
+
+C++ 
+ |_________C
+ |          -universal
+ |           -efficient
+ |           -close to the machine
+ |           -portable
+ |________OOP
+ |          -data abstraction
+ |           -data hiding
+ |           -inheritance
+ |           -polymorphism
+ |________Extensions
+            -exception handling
+            -templates
+
+
