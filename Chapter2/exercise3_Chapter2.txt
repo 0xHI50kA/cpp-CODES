@@ -1,0 +1,27 @@
+/*
+Exercise 3
+Which of the variable definitions shown on the opposite page is invalid or does
+not make sense?
+
+For exercise 3
+Defining and initializing variables:
+int a(2.5);                 const long large;
+int b = '?';                char c('\'');
+char z(500);                unsigned char ch = '\201';
+int big = 40000;            unsigned size(40000);
+double he's(1.2E+5);        float val = 12345.12345;
+
+
+*/
+
+//Incorrect:
+int a(2.5);                 // 2.5 is not an integer value
+const long large;           // Without initialization
+char z(500);                // The value 500 is too large
+                            // to fit in a byte
+int big = 40000;            // Attention! On 16-bit systems
+                            // int values are <= 32767
+double he's(1.2E+5);        // The character ' is not
+                            // allowed in names
+float val = 12345.12345;    // The accuracy of float
+                            // is only 6 digits
